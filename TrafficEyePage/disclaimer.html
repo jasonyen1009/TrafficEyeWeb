@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- CSS FILES -->        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.0/font/bootstrap-icons.min.css">
+    <link href="css/templatemo-ebook-landing.css" rel="stylesheet">
+    <style>
+        /* 將 navbar 的背景顏色設置為黑色 */
+        .navbar {
+            background-color: black;
+        }
+    </style>
+    <!--
+    TemplateMo 588 ebook landing
+    https://templatemo.com/tm-588-ebook-landing
+    -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <!-- 使用 images 中的圖片，並且圖示大小為 55 x 55-->
+                <img src="images/TrafficEyeLogo.png" width="55" height="55">
+
+                <span>TrafficEye</span>
+            </a>
+
+            <div class="d-lg-none ms-auto me-3">
+                <a href="#" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
+                    <i class="btn-icon bi-cloud-download"></i>
+                    <span>Download</span><!-- duplicated another one below for mobile -->
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-auto me-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html">主頁</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_2">關於我們的 APP</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_3">作者</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="disclaimer.html">使用條款與免責聲明</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_5">聯絡我們</a>
+                    </li>
+                </ul>
+
+                <div>
+                    <button onclick="window.open('https://www.google.com.tw');" style="background: none; border: none; cursor: pointer;">
+                        <img src="images/AppleStore.png" alt="Apple Store" style="width: 150px; height: 50px;">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <br><br><br>
+    <div class="termsofuse"></div>
+        <h2 class="text-center text-dark font-weight-bold">使用條款</h2>
+        <!-- Your content goes here -->
+        <div style="text-align: center;">
+            <div style="max-width: 800px; margin: 10px auto; text-align: justify; padding: 10px; line-height: 2.0;">
+                <p>當您選擇使用我們的服務時，您同意我們會根據您的定位，提供最近的路況資訊。請注意，使用地圖模式可能會消耗較多的 GPU 運算，導致您的手機發燙或是耗電等狀況，因此，我們建議在使用預警模式後，將 APP 切換到背景執行。我們的服務會每三分鐘自動抓取一次最新的資訊，但由於外界新資訊不斷更新，我們無法保證完全同步不遺漏。因此，我們提供的資訊與服務僅供您參考。</p>
+            </div>
+        </div>
+    </div>
+    <div class="disclaimer"></div>
+    <br>
+        <h2 class="text-center text-dark font-weight-bold">免責聲明</h2>
+        <!-- Your content goes here -->
+        <div style="text-align: center;">
+            <div style="max-width: 800px; margin: 10px auto; text-align: justify; padding: 10px; line-height: 2.0;">
+                <p>我們的服務使用 AI 進行路況分類。然而，這些分類結果是由模型訓練出來的，我們無法保證其 100% 的準確性。最終的行車決策仍應由駕駛人自行決定。我們對於任何因使用本服務所產生的結果不承擔任何責任。
+
+                    請注意，我們抓取的路況資料，標記路況的位置可能與實際的位置有所偏差。在短時間內不斷抓取資料，會非常耗電，並且伺服器可能承受不住過多的請求導致癱瘓。
+                </p>
+                <h5>
+                    <br>
+                    <b>
+                        以下事項請您特別注意：
+                    </b>
+                    <br>
+                </h5>
+                <p>
+                    <ul>
+                        <li>本應用程式的資訊和內容僅供參考，我們不對資訊和內容的準確性、完整性、及時性和可靠性做出任何保證。您應當自行承擔使用本應用程式產生的風險。</li>
+                        <li>駕駛人應當自行承擔使用本應用程式時發生任何意外的風險。本應用程式僅提供路況資訊及建議，不構成任何駕駛指示。駕駛人應當依自身判斷，遵守交通法規，安全駕駛。</li>
+                        <li>使用本應用程式必須具備網路需求，使用者須衡量自己的網路使用量限制，超過限制造成額外費用則不給予任何賠償。</li>
+                    </ul>
+                </p>
+                <h6 style="color: black;">
+                    <b>
+                        請您在使用本應用程式之前，務必詳閱以上條款。如果您不同意任何條款，請勿使用本應用程式。                    </b>
+                </h6>
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
