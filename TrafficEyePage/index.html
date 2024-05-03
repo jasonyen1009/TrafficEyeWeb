@@ -112,7 +112,7 @@
                         <div class="col-lg-6 col-12">
                             <div class="book-section-info" style="line-height: 2.0;">
                                 <h2 class="mb-4">關於我們的 APP </h2>
-                                <p>我們在手機端部署了一個輕量化的語言模型 <a rel="nofollow" href="https://freepik.com" target="_blank">AL-BERT</a>，其可以即時對路況進行分類。這項技術旨在幫助您省下觀看路況的時間，同時辨識可能導致事故的車道，讓駕駛者提前避開該車道，以避免二次追撞的情況發生。我們的目標是提供一個有效的輔助工具，讓駕駛者減輕行車壓力，提高行車安全性。當然，最終的行車決策仍然由駕駛者自行負責。儘管我們提供了這項技術，但駕駛者仍需根據自己的判斷和狀況做出適當的決策。</p>
+                                <p>我們在手機端部署了一個輕量化的語言模型 <a rel="nofollow" href="https://arxiv.org/pdf/1909.11942" target="_blank">AL-BERT</a>，其可以即時對路況進行分類。這項技術旨在幫助您省下觀看路況的時間，同時辨識可能導致事故的車道，讓駕駛者提前避開該車道，以避免二次追撞的情況發生。我們的目標是提供一個有效的輔助工具，讓駕駛者減輕行車壓力，提高行車安全性。當然，最終的行車決策仍然由駕駛者自行負責。儘管我們提供了這項技術，但駕駛者仍需根據自己的判斷和狀況做出適當的決策。</p>
                             </div>
                         </div>
 
@@ -254,19 +254,15 @@
                     <div class="row">
                         <div class="col-lg-5 col-12 mx-auto">
 
-                            <form class="custom-form ebook-download-form bg-white shadow" action="mailto:t111c52004@ntut.org.tw?subject=這是一個設定好的主旨" method="post" role="form" enctype="multipart/form-data">
+                            <form class="custom-form ebook-download-form bg-white shadow" action="mailto:t111c52004@ntut.org.tw?subject=TrafficEye 使用者意見回饋" method="post" role="form" enctype="multipart/form-data">
                                 <div class="text-center mb-5">
                                     <h2 class="mb-1">聯繫我們</h2>
+                                    <br><br>
+                                    <h5>
+                                        若有任何問題或是建議，歡迎來信告訴我們！
+                                    </h5>
                                 </div>
-                        
-                                <div class="ebook-download-form-body">
-                                    <div class="input-group mb-4">
-                                        <input type="text" name="ebook-form-message" id="ebook-form-message" class="form-control" aria-label="ebook-form-message" aria-describedby="basic-addon1" placeholder="您的意見" required>
-                                        <span class="input-group-text" id="basic-addon1">
-                                            <i class="custom-form-icon bi-chat-left-dots"></i>
-                                        </span>
-                                    </div>
-                                
+                                <div class="ebook-download-form-body">                               
                                     <div class="col-lg-8 col-md-10 col-8 mx-auto">
                                         <button type="submit" class="form-control" onclick="submitHandler();">發送郵件</button>
                                     </div>
@@ -277,9 +273,8 @@
                         <script>
                             function submitHandler() {
                                 var to = "t111c52004@ntut.org.tw"; 
-                                var comment = document.getElementById("ebook-form-message").value; 
                                 var subject = "TrafficEye 使用者意見回饋";
-                                var mailTo = "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(comment);
+                                var mailTo = "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=";
                                 window.location.href = mailTo;
                             }
                         </script>
