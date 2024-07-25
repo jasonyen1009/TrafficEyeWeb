@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="TrafficEye">
-    <meta name="description" content="TrafficEye 使用條款與免責聲明">
+    <meta name="description" content="TrafficEye BERT模型資料集分布與模型性能報告">
     <meta name="author" content="YEN HUNG CHENG">
-    <title>使用條款與免責聲明</title>
+    <title>BERT模型資料集分布與模型性能報告</title>
     <!-- CSS FILES -->        
 
     
@@ -87,42 +87,25 @@
 
     <br><br><br><br><br>
     <div class="termsofuse"></div>
-        <h2 class="text-center text-dark font-weight-bold">使用條款</h2>
+        <h2 class="text-center text-dark font-weight-bold">資料分布</h2>
         <!-- Your content goes here -->
         <div style="text-align: center;">
-            <div style="max-width: 800px; margin: 10px auto; text-align: justify; padding: 10px; line-height: 2.0;">
-                <p>當您選擇使用我們的服務時，您同意我們會根據您的定位，提供最近的路況資訊。請注意，使用地圖模式可能會消耗較多的 GPU 運算，導致您的手機發燙或是耗電等狀況，因此，我們建議在使用預警模式後，將 APP 切換到背景執行。我們的服務會每三分鐘自動抓取一次最新的資訊，但由於外界新資訊不斷更新，我們無法保證完全同步不遺漏。因此，我們提供的資訊與服務僅供您參考。</p>
+            <div style="max-width: 800px; margin: 10px auto; text-align: center; padding: 10px; line-height: 2.0;">
+                <iframe width="779" height="482" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRgLrZ3lED8F7YHrckBDQeZ0-hw6wvEBe9iCqg68qfYtPUkk3OSh8lWeNM_fz9a_3k0XPZdEUvgmT67/pubchart?oid=1745697913&amp;format=interactive"></iframe>
+                <iframe width="779" height="482" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRgLrZ3lED8F7YHrckBDQeZ0-hw6wvEBe9iCqg68qfYtPUkk3OSh8lWeNM_fz9a_3k0XPZdEUvgmT67/pubchart?oid=2110943694&amp;format=interactive"></iframe>
             </div>
         </div>
     </div>
     <div class="disclaimer"></div>
     <br>
-        <h2 class="text-center text-dark font-weight-bold">免責聲明</h2>
+        <h2 class="text-center text-dark font-weight-bold">模型性能報告</h2>
         <!-- Your content goes here -->
         <div style="text-align: center;">
-            <div style="max-width: 800px; margin: 10px auto; text-align: justify; padding: 10px; line-height: 2.0;">
-                <p>我們的服務使用 AI 進行路況分類。然而，這些分類結果是由模型訓練出來的，我們無法保證其 100% 的準確性。最終的行車決策仍應由駕駛人自行決定。我們對於任何因使用本服務所產生的結果不承擔任何責任。
-
-                    請注意，我們抓取的路況資料，標記路況的位置可能與實際的位置有所偏差。在短時間內不斷抓取資料，會非常耗電，並且伺服器可能承受不住過多的請求導致癱瘓。
-                </p>
-                <h5>
-                    <br>
-                    <b>
-                        以下事項請您特別注意：
-                    </b>
-                    <br>
-                </h5>
-                <p>
-                    <ul>
-                        <li>本應用程式的資訊和內容僅供參考，我們不對資訊和內容的準確性、完整性、及時性和可靠性做出任何保證。您應當自行承擔使用本應用程式產生的風險。</li>
-                        <li>駕駛人應當自行承擔使用本應用程式時發生任何意外的風險。本應用程式僅提供路況資訊及建議，不構成任何駕駛指示。駕駛人應當依自身判斷，遵守交通法規，安全駕駛。</li>
-                        <li>使用本應用程式必須具備網路需求，使用者須衡量自己的網路使用量限制，超過限制造成額外費用則不給予任何賠償。</li>
-                    </ul>
-                </p>
-                <h6 style="color: black;">
-                    <b>
-                        請您在使用本應用程式之前，務必詳閱以上條款。如果您不同意任何條款，請勿使用本應用程式。                    </b>
-                </h6>
+            <p>
+                模型在測試資料集上的各標籤的性能表現如下：
+            </p>
+            <div style="max-width: 800px; margin: 10px auto; text-align: justify; padding: 10px; line-height: 2.0;">                
+                <img src="images/Final_BERT.png" alt="ROC" style="width: 100%; height: auto;">
                 
             </div>
         </div>
